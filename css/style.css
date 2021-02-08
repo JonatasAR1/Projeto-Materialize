@@ -1,0 +1,35 @@
+.sect1 {
+    position: relative;
+    min-height: 60vh;
+}
+
+.btn-large {
+    margin-top: 2rem;
+}
+
+.custom-title {
+    position: relative;
+}
+
+.custom-title h2 {
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    padding: 0 1rem;
+    font-size: 2rem;
+    background: rgb(255, 255, 255);
+}
+
+.custom-title div {
+    z-index: 1;
+    position: absolute;
+    top: 3.6rem;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: #505050;
+}
+
+a {
+    color:white;
+}
